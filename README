@@ -1,0 +1,10 @@
+WallE is an android app designed to be used for self driving robot. It uses the cell phone's inbuilt GPS and compass to determine it's current location and orientation then guides the robot to it's destination.
+It uses TCP protocol to communicate with the robot.
+The IP address and the PORT number can be configured from the Preference menu.
+
+
+TCP Commands:
+FORWARD : "F"
+TURN RIGHT : "R"
+TURN LEFT : "L"
+HAULT : "H"
