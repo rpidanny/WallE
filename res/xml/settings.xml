@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Network Settings" >
+        <EditTextPreference 
+            	android:title="Ip Address" 
+            	android:summary="Set the IP address of the TCP server." 
+            	android:key="prefIpaddress"/>
+        <EditTextPreference 
+            	android:title="PORT" 
+            	android:summary="Set the PORT address of the TCP server" 
+            	android:key="prefPort"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_update_setting" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefDataStream"
+            android:title="Data Stream"
+            android:summary="Send Continuous Data to Server" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="WallE Settings" >
+        <EditTextPreference
+            android:key="prefAccuracy"
+            android:title="Accuracy"
+            android:summary="Set the Accuracy in Meters." />
+        
+    </PreferenceCategory>
+   
+</PreferenceScreen>
